@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: online-shop
-        image: online_shop:latest
+        image: deepak0202/online-shop:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 80
